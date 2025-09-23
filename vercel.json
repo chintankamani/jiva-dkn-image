@@ -1,6 +1,5 @@
 {
     "functions": {
-      "api/index.py": {
       "api/fastapi_app.py": {
         "runtime": "python3.9"
       }
@@ -11,5 +10,4 @@
         "destination": "/api/fastapi_app.py"
       }
     ]
-  }
   }
