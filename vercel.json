@@ -1,0 +1,15 @@
+{
+    "functions": {
+      "api/index.py": {
+      "api/fastapi_app.py": {
+        "runtime": "python3.9"
+      }
+    },
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/api/fastapi_app.py"
+      }
+    ]
+  }
+  }
