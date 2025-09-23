@@ -361,3 +361,6 @@ class AdvancedTableCropper:
             import traceback
             traceback.print_exc()
             return False
+
+
+            
