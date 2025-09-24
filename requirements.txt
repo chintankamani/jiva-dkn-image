@@ -1,5 +1,8 @@
 Pillow>=9.0.0
-opencv-python-headless>=4.8.0
+opencv-python>=4.8.0
 numpy>=1.21.0
+Flask>=2.3.0
+Werkzeug>=2.3.0
+Flask-CORS>=4.0.0
 fastapi>=0.104.0
 uvicorn>=0.24.0
