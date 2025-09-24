@@ -1,9 +1,4 @@
 {
-    "functions": {
-      "api/fastapi_app.py": {
-        "runtime": "python3.9"
-      }
-    },
     "rewrites": [
       {
         "source": "/(.*)",
