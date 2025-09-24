@@ -11,13 +11,13 @@ class AdvancedTableCropper:
         self.total_rows = 17
 
     def detect_table_corners(self, image):
-    """
+        """
         Detect table corners using contour detection and edge analysis.
     
-    Args:
+        Args:
             image: OpenCV image (BGR format)
     
-    Returns:
+        Returns:
             corners: List of 4 corner points [(x,y), ...]
         """
         # Convert to grayscale

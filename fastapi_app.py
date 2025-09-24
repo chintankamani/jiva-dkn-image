@@ -12,9 +12,8 @@ import requests
 
 # Ensure project root is on path to import table_cropper
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
-if PROJECT_ROOT not in sys.path:
-    sys.path.append(PROJECT_ROOT)
+if CURRENT_DIR not in sys.path:
+    sys.path.append(CURRENT_DIR)
 
 from table_cropper import AdvancedTableCropper  # noqa: E402
 
